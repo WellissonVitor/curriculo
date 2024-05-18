@@ -1,0 +1,220 @@
+.clearflix{
+    clear: both;
+}
+body{
+    text-shadow: -2px 2px 2px rgb(52, 88, 117, 30%);
+    background-color: rgb(187, 210, 218);
+    text-align: center;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(52, 88, 117);
+}
+.container{
+    height: 780px;
+    background-color: rgb(249, 254, 255);
+    margin: 80px 400px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 10px rgb(52, 88, 117, 80%);
+}
+header{
+    position: sticky;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(245, 250, 253);
+    padding: 30px;
+    margin-bottom: 5px;
+}
+header a{
+    color: inherit;
+    text-decoration: none;
+    margin: 60px;
+    padding: 9px;
+}
+
+
+/*
+    CSS para a página Sobre Mim
+*/
+.direito, .centro, .esquerdo, .vl{
+    float: left;
+}
+.vl{
+    margin-top: 10px;
+    border-left: 1px solid rgb(0, 0, 0, 20%);
+    height: 640px;
+}
+.esquerdo{
+    width: 25%;
+    margin: 10px;
+    margin-left: 30px;
+}
+.esquerdo .foto{
+    width: 85%;
+    background-color: rgb(206, 224, 234);
+    border-radius: 100%;
+    border: 10px solid rgb(238, 244, 239);
+    box-shadow: inset -10px 10px 10px rgb(52, 88, 117, 80%), -5px 5px 5px rgb(52, 88, 117, 80%);
+    margin: 10px;
+}
+.esquerdo .logos img{
+    width: 20%;
+    margin: 3px;
+    padding: 1px;
+    border-radius: 100%;
+    box-shadow: -3px 3px 3px rgb(52, 88, 117, 80%);
+}
+.info_pessoais h4, .objetivos h4, .centro h4{
+    text-shadow: none;
+    padding: 10px;
+    background-color: rgb(138, 168, 194, 30%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.info_pessoais, .objetivos{
+    text-align: left;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.info_pessoais img{
+    width: 15%;
+    margin-right: 30px;
+    float: left;
+    border-radius: 100%;
+    background-color: rgb(187, 210, 218);
+}
+.objetivos h4{
+    margin-left: 10px;
+    text-align: center;
+    height: 35px;
+}
+.objetivos p{
+    padding: 10px;
+}
+.objetivos img{
+    width: 15%;
+    float: left;
+    border-radius: 100%;
+    background-color: rgb(187, 210, 218);
+}
+.centro{
+    width: 43%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.centro p{
+    text-align: justify;
+    width: 90%;
+}
+.centro h4{
+    height: 30px;
+}
+.centro div{
+    padding: 2px;
+    border-bottom: 1px dashed rgb(0, 0, 0, 20%);
+}
+.centro div img{
+    margin: 5px;
+}
+.cidade, .tecnologia{
+    width: 20%;
+}
+.jornada{
+    width: 18%;
+}
+.escadas, .livro{
+    width: 15%;
+}
+.cidade, .escadas, .livro{
+    float: left;
+}
+.jornada, .tecnologia{
+    float: right;
+}
+.direito{
+    width: 25%;
+}
+
+
+
+/*
+    CSS para a página Formação
+*/
+.formacao div img{
+    width: 13%;
+    float: left;
+}
+.formacao div{
+    margin: 35px;
+    border-bottom: 1px dotted rgb(52, 88, 117, 30%);
+}
+.formacao p{
+    text-align: left;
+    width: 85%;
+    height: 100px;
+    padding-top: 30px;
+    margin-left: 220px;
+}
+
+
+
+/*
+    CSS para portifólio
+*/
+.portifolio{
+    margin: 20px;
+}
+.portifolio h1{
+    text-shadow: none;
+    padding: 20px;
+    background-color: rgb(138, 168, 194, 30%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.portifolio div{
+    border-bottom: 1px dashed rgb(52, 88, 117, 30%);
+}
+
+
+/*
+    CSS para contato
+*/
+.contato{
+    margin: 20px;
+}
+.contato h1{
+    text-shadow: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(138, 168, 194, 30%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.contato form input, .contato form textarea{
+    text-align: center;
+    height: 25px;
+    border: none;
+    background-color: rgb(138, 168, 194, 30%);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+.contato form textarea{
+    height: 120px;
+}
+.contato form button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(52, 88, 117, 80%);
+    border: none;
+    color: rgb(249, 254, 255);
+}
+@media only screen and (max-width: 1280px) {
+    .container{
+        margin: 0 auto;
+        width: 100%;
+        height: 2000px
+    }
+    section{
+        width: 100%;
+    }
+}
